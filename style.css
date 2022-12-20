@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    /* text-align: center; */
+    height: 10vh;
+    background-color: rgb(13, 235, 157);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    /* background-image: url('maths.jpg');
+    background-repeat: no-repeat;
+    background-size:contain; */
+}
+table{
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 65vh;
+    width: 30vw;
+    background-color: gray;
+    box-shadow: black 25px;
+}
+tr{
+    /* border: 1px solid black; */
+    padding: 3px;
+}
+td{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+/* .textbox{
+    height: 100%;
+    width: 100%;
+} */
+.inp{
+    background-color: rgb(177, 252, 250);
+}
+.inp:hover{
+    cursor: pointer;
+    background-color: rgb(11, 239, 65);
+}
+#cancel:hover{
+    background-color: red;
+}
+#output{
+    background-color: rgb(31, 232, 135);
+}

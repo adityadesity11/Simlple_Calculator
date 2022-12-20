@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+</head>
+<body>
+    <nav class="navbar"><h1>Simple Calculator Using JavaScript</h1></nav>
+    <div class="box">
+        <table>
+            <tr>
+                <td colspan="3" id="output"></td>
+                <td class="inp" id="cancel" onclick="bsp()" ondblclick="clearText()">C</td>
+            </tr>
+            <tr>
+                <td class="inp" onclick="insert(1)">1</td>
+                <td class="inp" onclick="insert(2)">2</td>
+                <td class="inp" onclick="insert(3)">3</td>
+                <td class="inp" onclick="insert('/')">/</td>
+            </tr>
+            <tr>
+                <td class="inp" onclick="insert(4)">4</td>
+                <td class="inp" onclick="insert(5)">5</td>
+                <td class="inp" onclick="insert(6)">6</td>
+                <td class="inp" onclick="insert('*')">*</td>
+            </tr>
+            <tr>
+                <td class="inp" onclick="insert(7)">7</td>
+                <td class="inp" onclick="insert(8)">8</td>
+                <td class="inp" onclick="insert(9)">9</td>
+                <td class="inp" onclick="insert('-')">-</td>
+            </tr>
+            <tr>
+                <td class="inp" onclick="insert(0)">0</td>
+                <td class="inp" onclick="insert('.')">.</td>
+                <td class="inp" onclick="insert('%')">%</td>
+                <td class="inp" onclick="insert('+')">+</td>
+            </tr>
+        
+            <tr>
+                <td class="inp" onclick="insert('(')">(</td>
+                <td class="inp" onclick="insert(')')">)</td>
+                <td class="inp" onclick="equals()" colspan="2">=</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
